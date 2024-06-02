@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Artikel</title>
+      <link rel="stylesheet" href="assets/css/myblogday2.css">
+      <link rel="stylesheet" href="assets/css/artikel.css">
+      
+    </head>
+    <body>
+        <nav style="background-color: blanchedalmond; height: 80px;">
+            <div style="display:flex; align-items: center; height: 100%; margin-left: 30px; margin-right: 30px;">
+                <ul style="display:flex; list-style-type: none; gap: 45px; align-items: center;">
+                    <li>
+                        <a href="myblogday2.html"><img style="width: 120px" src="assets/images/logo tanaman.png"></a> 
+                    </li>
+                    <li class="tb-navbar">
+                        <a href="myblogday2.html">Beranda</a>
+                    </li>
+                    <li class="tb-navbar">
+                        <a href="Artikel.html">Artikel</a>
+                    </li>
+                </ul>
+
+                <div style="display: flex; width: 100%;justify-content: end;" >
+                    <a href="contactme.html" class="contact-navbar">Hubungi kami</a>
+                </div>
+            </div>
+         </nav>
+         <div class="artikel">
+            <div class="artikel-form">
+                <div class="artikel-container">
+                    <form onsubmit="SubmitArtikel(event)">
+                        <h1>AYO POSTING ARTIKEL MU!!</h1>
+                        <div>
+                            <label for="Judul"> Judul Artikel</label>
+                            <input type="text" id="inputJudul">
+                        </div>
+                        <div>
+                            <label for="Konten">Konten Artikel</label>
+                            <textarea id="inputKonten"></textarea>
+                        </div>
+                        <div>
+                            <label for="Gambar">Unggah Gambar</label>
+                            <input type="file" id="inputGambar">
+                        </div>
+                        <div class="button-input">
+                            <button>Unggah Artikel</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div>
+
+                <hr class="line">
+                <div id="konten" class="list-artikel">
+
+            </div>
+         </div>
+         <script src="assets/js/artikel.js"></script> 
+    </body>
+</html>

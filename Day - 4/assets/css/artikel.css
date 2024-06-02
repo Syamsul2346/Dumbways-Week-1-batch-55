@@ -1,0 +1,133 @@
+.artikel-form {
+    padding : 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.artikel-form .artikel-container {
+    width: 500px
+}
+
+.artikel-form .artikel-container h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: green;
+}
+
+.artikel-form label {
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.artikel-form form input, textarea, select {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(202, 202, 205);
+}
+
+.artikel-form form textarea {
+    height: 250px;
+    resize: none;
+}
+
+.artikel-form .button-input{
+    text-align: right;
+}
+
+.artikel-form form button {
+    margin-top: 50px;
+    padding: 8px 20px;
+    font-size: 17px;
+    background-color: rgba(47, 255, 61, 0.933);
+    border-radius: 10px;
+    border: none;
+    color:black;
+    cursor: pointer;
+}
+
+.artikel hr {
+    border: 1px solid darkgreen;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Blog List Items */
+
+.artkel .list-artikel{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.artikel .list-artikel .list-artikel-items {
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(228, 228, 228);
+    border-radius: 10px;
+    display: flex;
+}
+
+.artikel .list-artikel .list-artikel-items .artikel-gambar {
+    flex: 1;
+}
+
+.artikel .list-artikel .list-artikel-items .artikel-gambar img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.artikel .list-artikel .list-artikel-items .artikel-konten {
+    padding-left: 20px;
+    flex: 2;
+}
+
+.artikel .list-artikel .btn-group {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.artikel .list-artikel .btn-group .btn-edit{
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 10px;
+    background: rgb(4, 113, 11);
+    color: white;
+}
+
+.artikel .list-artikel .btn-group .btn-post{
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 10px;
+    background: orangered;
+    color: white;
+}
+
+.artikel .list-artikel h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.artikel .list-artikel .detail-artikel {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.artikel .list-artikel p {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: justify;
+}
